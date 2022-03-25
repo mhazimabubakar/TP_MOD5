@@ -19,6 +19,9 @@ namespace tpmodul5_1302204092
             Console.WriteLine();
             video.IncreasePlayCount(3);
             video.PrintVideoDetails();
+            Console.WriteLine();
+            video.IncreasePlayCount(20437192);
+            video.PrintVideoDetails();
         }
     }
 }
