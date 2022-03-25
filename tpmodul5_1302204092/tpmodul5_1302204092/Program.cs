@@ -10,6 +10,15 @@ namespace tpmodul5_1302204092
     {
         static void Main(string[] args)
         {
+            SayaTubeVidio video = new SayaTubeVidio("Tutorial Design By Contract - Muhammad Hazim Abubakar");
+            video.IncreasePlayCount(10);
+            video.PrintVideoDetails();
+            Console.WriteLine();
+            video.IncreasePlayCount(8);
+            video.PrintVideoDetails();
+            Console.WriteLine();
+            video.IncreasePlayCount(3);
+            video.PrintVideoDetails();
         }
     }
 }
